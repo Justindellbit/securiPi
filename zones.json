@@ -1,0 +1,16 @@
+{
+  "cam0": {
+    "entree": {
+      "polygon": [[0, 0], [640, 0], [640, 480], [0, 480]],
+      "rules": {
+        "mouvement": {
+          "level": "WARNING",
+          "min_area": 5000,
+          "debounce_n": 3,
+          "debounce_t": 5,
+          "cooldown": 10
+        }
+      }
+    }
+  }
+}

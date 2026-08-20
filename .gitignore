@@ -1,0 +1,22 @@
+# Build ESP-IDF
+build/
+sdkconfig.old
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Environnement
+.env
+
+# IDE
+.vscode/
+
+# Fichiers système
+.DS_Store
