@@ -11,9 +11,9 @@ from notifier import TelegramNotifier
 from collections import deque
 
 # ===== CONFIGURATION =====
-CAMERA_URL      = "http://192.168.137.19:8080/video?640x480"
-TELEGRAM_TOKEN  = "8869372969:AAFtd2RMojnltqi1Wx1QFraLiPZ61Xt-cec"
-TELEGRAM_CHAT_ID= "6236147298"
+CAMERA_URL      = "http://adresse:port/video?640x480"
+TELEGRAM_TOKEN  = "remplacer par votre Token"
+TELEGRAM_CHAT_ID= "remplacer par votre Id"
 ZONES_CONFIG    = '/home/justin/compute/zones.json'
 YOLO_MODEL      = '/home/justin/compute/best_int8.tflite'
 FACE_MODEL      = '/home/justin/compute/mobilefacenet.tflite'
