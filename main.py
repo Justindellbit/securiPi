@@ -10,9 +10,9 @@ from notifier import TelegramNotifier
 import cv2
 
 # ===== CONFIGURATION =====
-CAMERA_URL = "http://192.168.137.123:8080/video?640x480"
+CAMERA_URL = "http://adresse:port/video?640x480"
 TELEGRAM_TOKEN = "8869372969:AAFtd2RMojnltqi1Wx1QFraLiPZ61Xt-cec"
-TELEGRAM_CHAT_ID = "6236147298"
+TELEGRAM_CHAT_ID = ""
 ZONES_CONFIG = '/home/justin/compute/zones.json'
 MODEL_PATH = '/home/justin/compute/best_int8.tflite'
 PROCESS_SIZE = 320
